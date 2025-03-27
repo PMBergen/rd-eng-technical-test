@@ -55,4 +55,12 @@ Async is required in use-cases like buffering and streaming of data, since we wa
 Comment on testing and what tests you would 
 Tests:
 
-
+1. test that is_valid returns true if only one value is set
+2. test that is_valid returns false if no value or more than one value is set
+3. call add_data and flush to check if the data will be added to the export file
+4. call add_data multiple times at once to see if it will corrupt the buffer
+5. call add_data very frequently to check if handling the data will be done properly, if there is any loss, will buffer handling and flushing work well
+6. provide some csv file for OPCUA and check if read_nodes_strings will return expected list of nodes
+7. trigger datachange_notification periodically and check if it will write all the data in the export file. Check if the data will be corrupted, and if there is any loss
+8. trigger datachange_notification very frequently, and measure in the code how much time it takes to append data into the file. Analyze how much the execution time is increasing as the existing data in the file is getting larger
+9. trigger datachange_notification very frequently, and measure how much time it takes to execute read/write commands which are inside the lock in the flush command
