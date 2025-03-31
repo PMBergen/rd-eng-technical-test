@@ -6,7 +6,7 @@ Welcome to Palfinger technical test and congratulations to reach this step in th
 
 It is two fold, you should go through the documentation and the implementation and find gaps in both code and requirements.
 
-- Documentation review: Go through the documentation in Notes.md and find where it could be extended or corrected.
+- Documentation review: Go through the documentation in NOTES.md and find where it could be extended or corrected.
 - Code review: Go through the code, understanding what it does and suggest ways to improve it, things like: patterns, file organization, more functional flavour, bad handling of edge cases, clear bugs, etc... in general, things that you think are important in a code base.
 - Suggest unit tests that could be interesting given the documentation and the current implementation.
 
@@ -20,8 +20,8 @@ We are expecting **around 2 hours of work on the test**, if you find yourself ex
 
 ## Handing in your assessment
 
-- All answers should be written in the notes.md file included in the repository
-- You are not expected to place comments or other notes anywhere else. You are free to write elsewhere but only notes.md will be looked at
+- All answers should be written in the NOTES.md file included in the repository
+- You are not expected to place comments or other notes anywhere else. You are free to write elsewhere but only NOTES.md will be looked at
 
 ## Documentation
 
