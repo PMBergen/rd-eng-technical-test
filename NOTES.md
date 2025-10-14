@@ -8,10 +8,6 @@ Give your sense of the code written, is it good, bad, somewhere between. Specifi
 
 Umbrella for naming standard/file structure/patterns/configuration and portability/scalability/maintainability
 
-## Documentation
-
-Comment on the documentation.md here
-
 ## Export section
 
 Comment on the files inside the export folder here
